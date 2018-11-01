@@ -8,7 +8,7 @@
             "type": "shell",
             "command": "g++ ",
             "args": [
-                "-g", "teste.cpp"
+                "-g", "1088-bolhasbaldes.cpp"
             ],
             "group": {
                 "kind": "build",
