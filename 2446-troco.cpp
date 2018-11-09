@@ -1,5 +1,5 @@
-//O código trata da resolução do desafio do URI 2446 - Troco
-//Para a resolução foi utilizado o paradigma de programação dinâmica.
+// O código trata da resolução do desafio do URI 2446 - Troco
+// Para a resolução foi utilizado o paradigma de programação dinâmica.
 
 #include <iostream>
 #include <vector>
@@ -52,9 +52,9 @@ int main()
 	int valorfinal = calcular_moedas(vetor_moedas.size(), valor_desejado);
 
 	if (valorfinal == valor_desejado)
-		cout << "S\n";
+		cout << "S" << endl;
 	else
-		cout << "N\n";
+		cout << "N" << endl;
 
 	return 0;
 }

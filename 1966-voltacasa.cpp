@@ -1,6 +1,6 @@
 // O problema 1966 - Volta para casa do URI. Foi resolvido utilizando o paradigma guloso.
 // Primeiramente a entrada é ordenada e posteriormente é selecionado os queijos com menor preço/volume por queijo.
-//O problema é semelhante a mochila fracionária.
+// O problema é semelhante a mochila fracionária.
 
 #include <iostream>
 #include <vector>

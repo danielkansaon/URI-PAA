@@ -1,5 +1,5 @@
-//O algoritmo trata da resolução do problema 1642 - Teclado Quebrado do URI.
-//Para a resolução foi utilizado a ideia de subsequência, aumentando conforme possível.
+// O algoritmo trata da resolução do problema 1642 - Teclado Quebrado do URI.
+// Para a resolução foi utilizado a ideia de subsequência, aumentando conforme possível.
 #include <iostream>
 
 using namespace std;
