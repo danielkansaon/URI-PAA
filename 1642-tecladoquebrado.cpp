@@ -2,7 +2,7 @@
 // Para a resolução foi utilizado a ideia de subsequência, aumentando conforme possível.
 #include <iostream>
 
-using namespace std;
+using namespace std; 
 
 char vetor_texto_input[1000001];
 int vetor_qtd_caractere[128]; //Array que armazena a ocorrência de um caractere em uma subsequência.
