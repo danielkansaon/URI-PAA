@@ -14,7 +14,7 @@ vector<int> vetor_preco = {};
 vector<int> vetor_volume_aux = {};
 vector<int> vetor_preco_aux = {};
 
-int retornar_qtd_cubos_piramide(int qtd_queijo_comprado) {
+int retornar_qtd_cubos_base_piramide(int qtd_queijo_comprado) {
 	int qtd_queijo_usado = 0;
 	int nivel_piramide = 0;
 
@@ -37,12 +37,12 @@ int comprar_maior_qtd_queijo() {
 
 	for (size_t i = 0; i < vetor_preco.size() && valor_gasto < orcamento; i++)
 	{
+		//Verifica se é possível comprar o queijo inteiro ou só a fração
 		if ((valor_gasto + vetor_preco[i]) <= orcamento) {
 			valor_gasto += vetor_preco[i];
 			qtd_queijo += vetor_volume[i];
 		}
-		else {
-			//Sempre arredonda a fração para baixo
+		else {//Compra fração do queijo: sempre arredonda a fração para baixo			
 			qtd_queijo += ((orcamento - valor_gasto) * vetor_volume[i]) / vetor_preco[i];
 			valor_gasto = orcamento;
 		}
@@ -51,7 +51,7 @@ int comprar_maior_qtd_queijo() {
 	return qtd_queijo;
 }
 
-//Função ordenação: preço/volume por queijo.
+//Função ordenação por: preço/volume por queijo.
 bool function_order(int i, int j) {
 	return ((double)vetor_preco_aux[i] / vetor_volume_aux[i]) < ((double)vetor_preco_aux[j] / vetor_volume_aux[j]);
 }
@@ -95,7 +95,7 @@ int main()
 
 	ordenar_input();
 	qtd_queijos_comprados = comprar_maior_qtd_queijo();
-	qtd_base_piramide = retornar_qtd_cubos_piramide(qtd_queijos_comprados);
+	qtd_base_piramide = retornar_qtd_cubos_base_piramide(qtd_queijos_comprados);
 	cout << qtd_base_piramide << endl;
 
 	return 0;

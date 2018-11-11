@@ -64,7 +64,6 @@ void calcular_qtd_par(int i, int j, int *jogador1, int *jogador2) {
 }
 
 void inicializar_vetor(int qtd) {
-
 	vector<int> temp;
 	int i = 0;
 	

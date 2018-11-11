@@ -1,4 +1,4 @@
-// Utilizar o merge-sorte O(n*logn). Paradigma: dividir para conquistar.
+// Utilizar o merge-sorte O(n*logn). Paradigma: dividir para conquistar (merge sort).
 // O algoritmo trata da resolução do problema 1088 do URI - Bolhas e Baldes.
 
 #include <iostream>
