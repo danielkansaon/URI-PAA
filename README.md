@@ -12,4 +12,4 @@ Foram resolvidos os seguintes problemas da plataforma URI:
  - 2677 - Par ou Ímpar - (Programação Dinâmica)
 
 OBS: Os tempos de resolução de cada problema pode variar de acordo com a hora em que a submissão na URI é feita.
-Os códigos podem ser simulados na plataforma URI.
+Os códigos podem ser simulados na plataforma URI (https://www.urionlinejudge.com.br).
