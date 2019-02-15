@@ -14,4 +14,4 @@ Foram resolvidos os seguintes problemas da plataforma URI:
 OBS: Os tempos de resolução de cada problema pode variar de acordo com a hora em que a submissão na URI é feita.
 Os códigos podem ser simulados na plataforma URI (https://www.urionlinejudge.com.br).
 
-PAA (Disciplina de Projeto e Análide de Algoritmos).
+PAA = (Disciplina de Projeto e Análide de Algoritmos).
